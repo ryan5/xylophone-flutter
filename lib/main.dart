@@ -17,15 +17,15 @@ class XylophoneApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: <Widget>[
-              Expanded(
-                child: FlatButton(
+              Container(
+                child:FlatButton(
                   color: Colors.red,
                   onPressed: () {
                     playSound(1);
                   },
                 ),
               ),
-              Expanded(
+              Container(
                 child: FlatButton(
                   color: Colors.orange,
                   onPressed: () {
@@ -33,7 +33,7 @@ class XylophoneApp extends StatelessWidget {
                   },
                 ),
               ),
-              Expanded(
+              Container(
                 child: FlatButton(
                   color: Colors.yellow,
                   onPressed: () {
@@ -41,7 +41,7 @@ class XylophoneApp extends StatelessWidget {
                   },
                 ),
               ),
-              Expanded(
+              Container(
                 child: FlatButton(
                   color: Colors.green,
                   onPressed: () {
@@ -49,7 +49,7 @@ class XylophoneApp extends StatelessWidget {
                   },
                 ),
               ),
-              Expanded(
+              Container(
                 child: FlatButton(
                   color: Colors.blue,
                   onPressed: () {
@@ -57,7 +57,7 @@ class XylophoneApp extends StatelessWidget {
                   },
                 ),
               ),
-              Expanded(
+              Container(
                 child: FlatButton(
                   color: Colors.indigo,
                   onPressed: () {
@@ -65,7 +65,7 @@ class XylophoneApp extends StatelessWidget {
                   },
                 ),
               ),
-              Expanded(
+              Container(
                 child: FlatButton(
                   color: Colors.purple,
                   onPressed: () {
